@@ -1,0 +1,142 @@
+.content1{
+    width: 100%;
+    
+    
+}
+/* .contenue{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.careaux1,
+.careaux2,
+.careaux4 {
+    border: solid 1px rgb(71, 70, 70);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px;
+}
+
+.careaux3{
+    border: solid 1px #039;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px;
+    background-color: #039;
+    color: aliceblue;
+} */
+
+footer {
+    background: rgb(231, 226, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-shrink: 0; */
+    width: 100%;
+    color: #0a0422;
+}
+
+.content-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    /* background: rgb(236, 213, 137); */
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+    
+}
+
+/* contact */
+.footer-services h3,
+.footer-contacts h3,
+.footer-horraires h3,
+.footer-medias h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.footer-contacts p {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+
+/* services */
+.liste-services li,
+.liste-horraires li,
+.liste-medias li {
+    list-style-type: none;
+}
+.liste-horraires li{
+    padding: 0;
+    font-size: 14px;
+}
+.liste-services{
+    margin-top: 2px;
+}
+.liste-services li {
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+.liste-services a {
+    text-decoration: none;
+    color: #333;
+}
+
+.liste-services a:hover {
+    color: rgb(3, 3, 3);
+}
+
+/* media */
+
+.bloc form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+.bloc  form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.bloc  form .btn{
+    font-size:15px ;
+    padding: 7px 30px;
+    border-radius: 40px;
+}
+
+
+.liste-medias {
+    position: relative;
+    right: 10px;
+    display: flex;
+}
+
+.liste-medias i {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.liste-medias a {
+    text-decoration: none;
+    color: #051072;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
